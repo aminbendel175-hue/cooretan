@@ -9,18 +9,18 @@ const stats = [
 const values = [
   {
     icon: Palette,
-    title: 'Ekspresi Murni',
-    desc: 'Setiap karya lahir dari perasaan, bukan sekadar teknik.',
+    title: 'impressionisme & Abstract ',
+
   },
   {
     icon: Award,
-    title: 'Original art painting',
+    title: 'Certification of Authenticator',
     
   },
   {
     icon: Heart,
-    title: 'Setiap goresan penuh makna',
-    desc: 'Setiap goresan menyimpan cerita yang ingin kamu rasakan.',
+    title: 'Original Art Painting',
+
   },
 ];
 
@@ -53,13 +53,16 @@ export default function About() {
           {/* Text side */}
           <div>
             <h3 className="text-white text-3xl md:text-4xl font-bold leading-snug mb-6">
-              Ruang Ekspresi<br />
-              <span className="italic font-light text-white/70">Seni yang Bicara</span>
+              Hallo Are you Happy Today <br />
+              <span className="italic font-light text-white/70">MAKE COLORS IN YOURS LIFE</span>
             </h3>
             <p className="text-white/60 text-base font-light leading-relaxed mb-8">
-              Nfgallery adalah ruang ekspresi seni yang menghadirkan karya penuh makna dan cerita dari setiap goresan.
-              Didirikan dengan semangat untuk mendekatkan seni dengan kehidupan sehari-hari, setiap lukisan yang hadir
-              di sini bukan hanya dekorasi — melainkan sebuah dialog antara seniman dan penikmatnya.
+              perkenalkan saya Nur fatah asal Rembang Jawa Tengah, dalam galleri ini  saya ingin memajang atau pun menjual beberapa karya saya,
+              NFGALLERY adalah ruang kreatif yang menghadirkan beberapa karya impressionisme dan ekspresif yang terhubung makna langsung dengan 
+              kehidupan bahkan alam. setiap karya memiliki sudut pandang sendiri dalam pandangan orang, dan saya mencoba dengan semangat membuat
+              lukisan saya seperti rumah bagi warna,imaginasi dan emosi saya sendiri yang saya tuangkan dalam canvas. Semoga dalam galleri kecil 
+              ini ada segelintir orang yang bisa menikmati beberapa karya yang saya tampilkan.
+
             </p>
 
             {/* Stats */}
@@ -74,14 +77,14 @@ export default function About() {
 
             {/* Values */}
             <div className="flex flex-col gap-4">
-              {values.map(({ icon: Icon, title, desc }) => (
+              {values.map(({ icon: Icon, title }) => (
                 <div key={title} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center flex-shrink-0">
                     <Icon size={16} className="text-white/70" />
                   </div>
                   <div>
                     <p className="text-white font-semibold text-sm">{title}</p>
-                    <p className="text-white/40 text-sm font-light">{desc}</p>
+                    <p className="text-white/40 text-sm font-light"></p>
                   </div>
                 </div>
               ))}

@@ -22,14 +22,13 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 px-6 max-w-3xl mx-auto">
         <p className="text-white/60 text-sm tracking-[0.3em] uppercase mb-6 font-light">
-          Original Art Collection
         </p>
 
         <h1 className="text-white text-5xl md:text-7xl font-bold leading-tight mb-6">
-          Art That Speaks
+          WELCOME HOME 
           <br />
           <span className="italic font-light">
-            Without Words
+            WHAT WORDS CANNOT EXPRESS, ART REVEALS
           </span>
         </h1>
 

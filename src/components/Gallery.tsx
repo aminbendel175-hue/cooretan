@@ -158,7 +158,7 @@ export default function Gallery() {
                 </p>
 
                 <p className="text-white/60 text-sm font-light">
-                  {art.medium} • {art.year}
+                  {} • {art.year}
                 </p>
               </div>
 

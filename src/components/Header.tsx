@@ -37,7 +37,7 @@ export default function Header() {
           href="#home"
           className="text-white font-bold text-xl tracking-widest uppercase"
         >
-          NFGALLERY
+          NFGALLERY ART PAINTING
         </a>
 
         {/* Desktop Menu */}

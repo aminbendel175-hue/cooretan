@@ -128,7 +128,7 @@ export default function Shop() {
 
         {/* Footer */}
         <p className="text-center text-white/30 text-sm mt-14 font-light">
-          Pengiriman ke seluruh Indonesia • Custom order tersedia
+          Pengiriman ke seluruh Indonesia maupun International • Custom order tersedia
         </p>
 
       </div>

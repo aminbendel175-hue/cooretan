@@ -9,7 +9,7 @@ const navLinks = [
 ];
 
 const socials = [
-  { icon: Instagram, href: 'https://instagram.com/Nfgallerydot.com', label: 'Instagram' },
+  { icon: Instagram, href: 'https://instagram.com/aminnurfatah.com', label: 'Instagram' },
   { icon: MessageCircle, href: 'https://wa.me/6287734609465', label: 'WhatsApp' },
   { icon: Mail, href: 'mailto:afifashahira4@gmail.com', label: 'Email' },
 ];
@@ -50,10 +50,10 @@ export default function Footer() {
         </div>
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-2">
           <p className="text-white/20 text-xs font-light">
-            &copy; 2026 Nfgallery &mdash; All Rights Reserved
+            &copy; 2025 Nfgallery &mdash; All Rights Reserved
           </p>
           <p className="text-white/20 text-xs font-light">
-            Setiap karya punya makna tersendiri
+            DO NOT COPY REPRODUCE OR USE WITHOUT PERMISSION.
           </p>
         </div>
       </div>
