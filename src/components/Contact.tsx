@@ -4,8 +4,8 @@ const contacts = [
   {
     icon: Instagram,
     label: 'Instagram',
-    value: '@nfgallerydot',
-    href: 'https://instagram.com/nfgallerydot',
+    value: '@aminnurfatah',
+    href: 'https://instagram.com/aminnurfatah',
     color: 'hover:text-pink-400',
   },
   {
@@ -46,7 +46,7 @@ export default function Contact() {
           <div>
             <h3 className="text-white text-2xl font-semibold mb-4">Mari Terhubung</h3>
             <p className="text-white/50 font-light leading-relaxed mb-8">
-              Tertarik dengan karya kami atau ingin pemesanan custom?
+              Tertarik dengan karya kami, berkolaborasi atau pemesanan custom ?
               Jangan ragu untuk menghubungi kami melalui platform di bawah ini.
             </p>
             <div className="flex flex-col gap-5">
@@ -110,7 +110,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full py-3 rounded-full bg-white text-black text-sm font-semibold hover:bg-white/90 transition-all duration-200 mt-2"
               >
-                Kirim via WhatsApp
+                Submit
               </button>
             </form>
           </div>
